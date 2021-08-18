@@ -1,6 +1,3 @@
-h1 {
-}
-
 .projects {
   background: #FAF1FF; 
   width: auto;
@@ -8,20 +5,8 @@ h1 {
   overflow: auto;
 }
 
-h1 {
-  text-align: center;
-  margin-top: 10px;
-  font-family: 'Londrina Shadow', cursive;
-  font-weight: bold;
-  
-  font-size: 50px;
-}
-
-p {
-  font-weight: bold;
-  text-align: right;
-  margin-bottom: 2%;
-  margin-right: 3%;
+.projects-header {
+  margin-top: 40px;
 }
 
 .projects-container {

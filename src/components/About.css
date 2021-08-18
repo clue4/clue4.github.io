@@ -92,4 +92,9 @@ ul {
     width: 250px;
     height: auto;
   }
+
+  .fun-facts {
+    padding: 7%;
+    margin: 15px;
+  }
 }

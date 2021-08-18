@@ -6,7 +6,7 @@ import './Projects.css';
 function Projects() {
   return (
     <div className="projects">
-      <h1>These are some things I’ve worked on...</h1>
+      <h1 className="projects-header">These are some things I’ve worked on...</h1>
       <div className="projects-container">
         <div className="projects-wrapper">
           <ul className="project-display">
