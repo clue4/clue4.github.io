@@ -88,6 +88,10 @@ ul {
     flex-direction: column;
   }
 
+  .profile-wrapper {
+    padding: 20px;
+  }
+
   .profile {
     width: 250px;
     height: auto;

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { FaBars, FaRegWindowClose } from "react-icons/fa";
 import './Navbar.css';
 
-
 function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
