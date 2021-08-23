@@ -19,7 +19,6 @@
   float: left;
   padding: 5px;
   list-style: none;
-  margin-right: 10px;
 }
 
 .footer-items li {
@@ -27,6 +26,7 @@
   color: #fff;
   font-family: 'Londrina Shadow', cursive;
   padding: 10px;
+  margin-right: 20px;
 }
 
 .footer-items li a {
