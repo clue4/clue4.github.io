@@ -20,7 +20,7 @@ function ImagePopup (props) {
       />
       
       <Modal open={open} onClose={onCloseModal} center>
-        <img className='modal-img' src={props.source} alt='' width='500px'/>
+          <img src={props.source} alt='' width='550px'/>
       </Modal>
     </div>
   )
