@@ -1,13 +1,29 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
 
-class ImageContainer extends Component {
-  render() {
-    return (
-      <div className='Image Container'>
+function ImagePopup (props) {
+  
+  const [open, setOpen] = useState(false);
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
 
-      </div>
-    );
-  }
+  return (
+    <div>
+      <img 
+        className='nature-photo'
+        src={props.source}
+        key={props.key}
+        onClick={onOpenModal}
+        width='300px'
+        alt=''
+      />
+      
+      <Modal open={open} onClose={onCloseModal} center>
+        <img className='modal-img' src={props.source} alt='' width='500px'/>
+      </Modal>
+    </div>
+  )
 }
 
-export default ImageContainer;
+export default ImagePopup

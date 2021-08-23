@@ -25,13 +25,20 @@ h2 {
 }
 
 .nature-photo { 
-  margin: 3px;
+  margin: 4px;
   padding: 1px;
   border: 5px solid rgb(100, 99, 99);
+}
+
+@media only screen and (max-width: 500px) {
+  .react-responsive-modal-modal {
+    width: 400px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
   .nature-photo {
     width: 250px;
   }
+
 }
