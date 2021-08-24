@@ -32,16 +32,16 @@ function Projects() {
             their items"
             additional="In February, there were severe snow storms in Texas, and my hackathon teammates and I wanted to create 
             something to help. This idea became more generalized (and infused with a healthy dose of capitalism), and we created a 
-            map-based program that enables sell/otherwise exchange items to promote community involvement and help each other. I
-            specifically worked on the map interface, using HTML, CSS, and JS for this project."
+            map-based program that enables users to sell/otherwise exchange items to promote community involvement and help each other. 
+            I specifically worked on the map interface, using HTML, CSS, and JS for this project."
             path="https://github.com/RahulR100/hackbeanpot2021"/>
             <ProjectInfo 
             src="images/mullet.png"
             text="A moodboard/bullet journal mix that enables users to track their moods every month to
             promote mental health (wip)"
-            additional="With covid, mental health has taken a hit. With group members, we designed and began implementing
+            additional="Since covid, mental health has taken a hit. With group members, we designed and began implementing
             a moodboard/bullet journal idea where people can track their moods every day on a monthly basis and log their
-            thoughts. I used HTML, CSS, and a bit of JS for this project."
+            thoughts. So far, I've used HTML, CSS, and a bit of JS for this project."
             path="https://github.com/jueunkangg/mullet"/>
           </ul>
         </div>
