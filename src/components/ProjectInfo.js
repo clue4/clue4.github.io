@@ -4,16 +4,21 @@ function ProjectInfo(props) {
   return (
     <>
       <li className="project-item">
-        <a className="project-link" href={props.path}>
-          <figure className="project-picwrap">
-            <img src={props.src} alt="Project" className="project-image"/>
-          </figure>
-          <div className="project-info">
-            <h5 className="project-text">
-              {props.text}
-            </h5>
-          </div>
-        </a>
+        <div className="proj-container">
+          <a className="project-link" href={props.path}>
+            <figure className="project-picwrap">
+              <img src={props.src} alt="Project" className="project-image"/>
+            </figure>
+            <div className="project-info">
+              <h5 className="project-text">
+                {props.text}
+              </h5>
+            </div>
+            <div className="info-container">
+              <div className="more-info">{props.additional}</div>
+            </div>
+          </a>
+        </div>
       </li>
     </>
   )
