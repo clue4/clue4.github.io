@@ -46,7 +46,7 @@ class PhotoGallery extends Component {
           <div className='photo-gallery' >
             {gallery}
           </div>
-          <p className='photo-copyright'>All photos displayed below belong to me and
+          <p className='photo-copyright'>All photos displayed above belong to me and
           are ©Connie Liu.</p>
         </div>
     </div>
