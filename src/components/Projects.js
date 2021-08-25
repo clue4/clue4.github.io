@@ -15,7 +15,8 @@ function Projects() {
             text="An image processor that can blur, sharpen, sepia, and perform other modifications
             to images (Code available upon request.)"
             additional="This is an image processing application that utilizes a model, view, and controller
-            and can perform modifications on images, which I implemented with a partner. There is both a text-based 
+            and can perform modifications on images, which I implemented with a partner while practicing design 
+            patterns such as the command pattern. There is both a text-based 
             view and a GUI made with Java Swing. Language used: Java. Please contact me to view code."
             path="https://github.com/clue4"/>
             <ProjectInfo 
@@ -46,7 +47,7 @@ function Projects() {
           </ul>
         </div>
       </div>
-      <p>...as well as this site!</p>
+      <p style={{paddingBottom: "20px"}}>...as well as this site!</p>
     </div>
   )
 }

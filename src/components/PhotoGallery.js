@@ -49,7 +49,7 @@ class PhotoGallery extends Component {
           <p className='photo-copyright'>All photos displayed above belong to me and
           are ©Connie Liu.</p>
         </div>
-    </div>
+      </div>
     );
   }
 }

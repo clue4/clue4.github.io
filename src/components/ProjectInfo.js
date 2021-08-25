@@ -15,7 +15,7 @@ function ProjectInfo(props) {
               </h5>
             </div>
             <div className="info-container">
-              <div className="more-info">{props.additional}</div>
+              <p className="more-info">{props.additional}</p>
             </div>
           </a>
         </div>
