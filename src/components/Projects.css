@@ -122,5 +122,16 @@
   }
 }
 
+@media only screen and (max-width: 748px) {
+  /* for mobile hover issues 
+  this might affect clicking tho?*/
+  .proj-container:active .info-container {
+    opacity: 1;
+  }
+
+  .project-link:active {
+    transform: scale(1.08);
+  }
+}
 
 
