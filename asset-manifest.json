@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.440bd00a.chunk.css",
+    "main.js": "/static/js/main.7b6ee4bc.chunk.js",
+    "main.js.map": "/static/js/main.7b6ee4bc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.efa39223.js",
+    "runtime-main.js.map": "/static/js/runtime-main.efa39223.js.map",
+    "static/css/2.59d623fc.chunk.css": "/static/css/2.59d623fc.chunk.css",
+    "static/js/2.5e18308d.chunk.js": "/static/js/2.5e18308d.chunk.js",
+    "static/js/2.5e18308d.chunk.js.map": "/static/js/2.5e18308d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.59d623fc.chunk.css.map": "/static/css/2.59d623fc.chunk.css.map",
+    "static/css/main.440bd00a.chunk.css.map": "/static/css/main.440bd00a.chunk.css.map",
+    "static/js/2.5e18308d.chunk.js.LICENSE.txt": "/static/js/2.5e18308d.chunk.js.LICENSE.txt",
+    "static/media/blackSwallowtail.1656bf44.jpg": "/static/media/blackSwallowtail.1656bf44.jpg",
+    "static/media/cloud.2e98eb94.JPG": "/static/media/cloud.2e98eb94.JPG",
+    "static/media/dragonfly.b045bf74.jpg": "/static/media/dragonfly.b045bf74.jpg",
+    "static/media/fallTrees.ae23fb9d.jpg": "/static/media/fallTrees.ae23fb9d.jpg",
+    "static/media/lilacFlower.f63f6c43.jpg": "/static/media/lilacFlower.f63f6c43.jpg",
+    "static/media/magentaFlower.ce72e5db.jpg": "/static/media/magentaFlower.ce72e5db.jpg",
+    "static/media/monarch1.849c1269.JPG": "/static/media/monarch1.849c1269.JPG",
+    "static/media/monarch2.4c859315.JPG": "/static/media/monarch2.4c859315.JPG",
+    "static/media/orangeButterfly.52fe922f.jpg": "/static/media/orangeButterfly.52fe922f.jpg",
+    "static/media/pinkFlower1.5ee58f3b.jpg": "/static/media/pinkFlower1.5ee58f3b.jpg",
+    "static/media/pinkFlower2.ba184c54.jpg": "/static/media/pinkFlower2.ba184c54.jpg",
+    "static/media/whiteFlower3.3ccf1777.jpg": "/static/media/whiteFlower3.3ccf1777.jpg",
+    "static/media/whiteFlowerBush.20281be5.jpg": "/static/media/whiteFlowerBush.20281be5.jpg",
+    "static/media/whiteFlowerPink.a1852cfb.jpg": "/static/media/whiteFlowerPink.a1852cfb.jpg",
+    "static/media/yellowFlower1.c999f567.JPG": "/static/media/yellowFlower1.c999f567.JPG",
+    "static/media/yellowFlower2.79591a37.jpg": "/static/media/yellowFlower2.79591a37.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efa39223.js",
+    "static/css/2.59d623fc.chunk.css",
+    "static/js/2.5e18308d.chunk.js",
+    "static/css/main.440bd00a.chunk.css",
+    "static/js/main.7b6ee4bc.chunk.js"
+  ]
+}
