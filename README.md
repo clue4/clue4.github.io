@@ -2,3 +2,5 @@ Personal site designed with Figma made while practicing with/learning react. Sho
 
 Card / navbar inspiration from: (Brian Design) https://www.youtube.com/watch?v=I2UBjN5ER4s
 See src/components/ImagePopup.js for MIT license for modal library I used for images
+
+WIP - mobile glitches
