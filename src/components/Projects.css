@@ -48,10 +48,6 @@
   overflow: scroll;
 }
 
-.proj-container:hover .info-container {
-  opacity: 1;
-}
-
 .more-info {
   color: white;
   font-size: 18px;
@@ -71,10 +67,6 @@
   overflow: hidden;
   text-decoration: none;
   background: #fff;
-}
-
-.project-link:hover {
-  transform: scale(1.08);
 }
 
 .project-picwrap {
@@ -122,14 +114,14 @@
   }
 }
 
-@media only screen and (max-width: 748px) {
+@media (hover: hover) {
   /* for mobile hover issues 
   this might affect clicking tho?*/
-  .proj-container:active .info-container {
+  .proj-container:hover .info-container {
     opacity: 1;
   }
 
-  .project-link:active {
+  .project-link:hover {
     transform: scale(1.08);
   }
 }
