@@ -17,7 +17,7 @@ function About() {
 
         <div className='about-bottom'>
           <div className='about-me'>
-            <p className='about-words'>DID THIS DEPLOY?I’m Connie. I’m currently a sophomore studying Computer Science
+            <p className='about-words'>I’m Connie. I’m currently a sophomore studying Computer Science
               and Philosophy at Northeastern University. I like (trying) to solve problems, 
               learning more about pretty much anything I don't know about, 
               and questioning the meaning behind life.</p>

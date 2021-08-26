@@ -123,9 +123,13 @@
     opacity: 1;
   }
 
-  .project-link:hover {
+  /* .project-link:hover {
     transform: scale(1.08);
-  }
+  } */
 }
 
+.project-link:hover {
+  transform: scale(1.08);
+}
+/* for better visualization of issue ^ */
 

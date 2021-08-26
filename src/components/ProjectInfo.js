@@ -26,4 +26,6 @@ function ProjectInfo(props) {
   )
 }
 
+// idk man idk
+
 export default ProjectInfo
