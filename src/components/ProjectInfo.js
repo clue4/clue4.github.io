@@ -4,8 +4,9 @@ function ProjectInfo(props) {
   return (
     <>
       <li className="project-item">
-        <div className="proj-container">
+        {/* <div className="proj-container"> */}
           <a className="project-link" href={props.path}>
+          <div className="proj-container">
             <figure className="project-picwrap">
               <img src={props.src} alt="Project" className="project-image"/>
             </figure>
@@ -17,8 +18,9 @@ function ProjectInfo(props) {
             <div className="info-container">
               <p className="more-info">{props.additional}</p>
             </div>
+          </div>
           </a>
-        </div>
+        {/* </div> */}
       </li>
     </>
   )

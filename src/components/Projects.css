@@ -116,7 +116,9 @@
 
 @media (hover: hover) {
   /* for mobile hover issues 
-  this might affect clicking tho?*/
+  this might affect clicking tho?
+  ok this is not it -- links are somehow off
+  but i currently unsure how to fix*/
   .proj-container:hover .info-container {
     opacity: 1;
   }
