@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.81deee03.chunk.css",
-    "main.js": "/static/js/main.bb6ff628.chunk.js",
-    "main.js.map": "/static/js/main.bb6ff628.chunk.js.map",
+    "main.js": "/static/js/main.f1762363.chunk.js",
+    "main.js.map": "/static/js/main.f1762363.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.efa39223.js",
     "runtime-main.js.map": "/static/js/runtime-main.efa39223.js.map",
     "static/css/2.59d623fc.chunk.css": "/static/css/2.59d623fc.chunk.css",
@@ -13,20 +13,20 @@
     "static/css/main.81deee03.chunk.css.map": "/static/css/main.81deee03.chunk.css.map",
     "static/js/2.5e18308d.chunk.js.LICENSE.txt": "/static/js/2.5e18308d.chunk.js.LICENSE.txt",
     "static/media/blackSwallowtail.2d17ff6d.jpg": "/static/media/blackSwallowtail.2d17ff6d.jpg",
-    "static/media/cloud.cb21b28d.jpg": "/static/media/cloud.cb21b28d.jpg",
+    "static/media/cloud.cb21b28d.JPG": "/static/media/cloud.cb21b28d.JPG",
     "static/media/dragonfly.fa5b6cca.jpg": "/static/media/dragonfly.fa5b6cca.jpg",
     "static/media/fallTrees.981e3afb.jpg": "/static/media/fallTrees.981e3afb.jpg",
     "static/media/lilacFlower.2dc0fc0b.jpg": "/static/media/lilacFlower.2dc0fc0b.jpg",
     "static/media/magentaFlower.867655ec.jpg": "/static/media/magentaFlower.867655ec.jpg",
-    "static/media/monarch1.96b1a5fe.jpg": "/static/media/monarch1.96b1a5fe.jpg",
-    "static/media/monarch2.b737223b.jpg": "/static/media/monarch2.b737223b.jpg",
+    "static/media/monarch1.96b1a5fe.JPG": "/static/media/monarch1.96b1a5fe.JPG",
+    "static/media/monarch2.b737223b.JPG": "/static/media/monarch2.b737223b.JPG",
     "static/media/orangeButterfly.4b1a2639.jpg": "/static/media/orangeButterfly.4b1a2639.jpg",
     "static/media/pinkFlower1.b105ccd1.jpg": "/static/media/pinkFlower1.b105ccd1.jpg",
     "static/media/pinkFlower2.8420360d.jpg": "/static/media/pinkFlower2.8420360d.jpg",
     "static/media/whiteFlower3.c3c55d1e.jpg": "/static/media/whiteFlower3.c3c55d1e.jpg",
     "static/media/whiteFlowerBush.e63838dd.jpg": "/static/media/whiteFlowerBush.e63838dd.jpg",
     "static/media/whiteFlowerPink.b1b0805a.jpg": "/static/media/whiteFlowerPink.b1b0805a.jpg",
-    "static/media/yellowFlower1.df6cf93f.jpg": "/static/media/yellowFlower1.df6cf93f.jpg",
+    "static/media/yellowFlower1.df6cf93f.JPG": "/static/media/yellowFlower1.df6cf93f.JPG",
     "static/media/yellowFlower2.f82f62ca.jpg": "/static/media/yellowFlower2.f82f62ca.jpg"
   },
   "entrypoints": [
@@ -34,6 +34,6 @@
     "static/css/2.59d623fc.chunk.css",
     "static/js/2.5e18308d.chunk.js",
     "static/css/main.81deee03.chunk.css",
-    "static/js/main.bb6ff628.chunk.js"
+    "static/js/main.f1762363.chunk.js"
   ]
 }
