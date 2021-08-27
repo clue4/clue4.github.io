@@ -12,10 +12,6 @@ h2 {
   font-size: 30px;
 }
 
-.photos-container {
-  justify-content: center;
-}
-
 .photo-gallery {
   max-width: 1300px;
   margin: auto;
@@ -27,8 +23,6 @@ h2 {
   justify-content: center;
   align-content: flex-start;
 }
-
-
 
 .nature-photo { 
   margin: 4px;

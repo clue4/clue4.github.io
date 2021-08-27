@@ -34,28 +34,6 @@
   margin-bottom: 24px;
 }
 
-.info-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgb(125, 79, 238, .93);
-  overflow: scroll;
-}
-
-.more-info {
-  color: white;
-  font-size: 18px;
-  position: absolute;
-  padding: 10px;
-  text-align: center;
-}
-
 .project-link {
   display: flex;
   flex-flow: column;
@@ -102,6 +80,35 @@
   text-align: center;
 }
 
+.info-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  max-width: 100%;
+  display: none;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(125, 79, 238, .93);
+  overflow: scroll;
+}
+
+.more-info {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  padding: 10px;
+  text-align: center;
+}
+
+.project-link:hover {
+  transform: scale(1.08);
+}
+
 @media only screen and (min-width: 550px) {
   .project-display {
     display: flex;
@@ -119,18 +126,12 @@
   this might affect clicking tho?
   ok this is not it -- links are somehow off
   but i currently unsure how to fix*/
-  .proj-container:hover .info-container {
+  .project-link:hover .info-container {
     opacity: 1;
   }
-
-  /* .project-link:hover {
-    transform: scale(1.08);
-  } */
+  
+  .info-container {
+    display: block;
+  }
 }
-
-.project-link:hover {
-  transform: scale(1.08);
-}
-/* for better visualization of issue ^ 
-it's not the margins either - i tested 20 rem for project-item*/
 

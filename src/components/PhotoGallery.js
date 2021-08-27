@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ImagePopup from './ImagePopup.js';
 import './PhotoGallery.css';
-
 import blackSwallowTail from '../gallery/blackSwallowtail.jpg';
 import dragonfly from '../gallery/dragonfly.jpg';
 import cloud from '../gallery/cloud.jpg';
@@ -20,7 +19,6 @@ import yellowFlower1 from '../gallery/yellowFlower1.jpg';
 import yellowFlower2 from '../gallery/yellowFlower2.jpg';
 
 class PhotoGallery extends Component {
-
   constructor(props) {
     super(props);
 
@@ -42,7 +40,6 @@ class PhotoGallery extends Component {
       <div className='about-photos'>
         <div className='photos-container' >
           <h2>Here are some of my favorite photos (taken with my trusty phone)!</h2>
-          
           <div className='photo-gallery' >
             {gallery}
           </div>
