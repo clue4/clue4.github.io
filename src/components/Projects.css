@@ -110,7 +110,7 @@
 
 @media only screen and (max-width: 1024px) {
   .project-item {
-    margin-bottom: 20rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -131,5 +131,6 @@
 .project-link:hover {
   transform: scale(1.08);
 }
-/* for better visualization of issue ^ */
+/* for better visualization of issue ^ 
+it's not the margins either - i tested 20 rem for project-item*/
 

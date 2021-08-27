@@ -12,6 +12,10 @@ h2 {
   font-size: 30px;
 }
 
+.photos-container {
+  justify-content: center;
+}
+
 .photo-gallery {
   max-width: 1300px;
   margin: auto;
@@ -24,6 +28,8 @@ h2 {
   align-content: flex-start;
 }
 
+
+
 .nature-photo { 
   margin: 4px;
   padding: 1px;
@@ -32,13 +38,16 @@ h2 {
 
 @media only screen and (max-width: 550px) {
   .react-responsive-modal-modal {
-    width: 400px;
+    width: 90%;
   }
 }
 
 @media only screen and (max-width: 450px) {
-  .nature-photo {
-    width: 250px;
+  .nature-container {
+    text-align: center;
   }
-
+  
+  .nature-photo {
+    width: 80%;
+  }
 }

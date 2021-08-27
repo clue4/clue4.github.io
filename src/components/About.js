@@ -7,7 +7,7 @@ function About() {
   return (
     <div className='about-container'>
       <div className='profile-wrapper'>
-        <img className='profile' src='images/profile.JPG' alt='Profile'/>
+        <img className='profile' src='images/profile.jpg' alt='Profile'/>
       </div>
       
       <div className='about-content-container'>

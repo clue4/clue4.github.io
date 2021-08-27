@@ -24,7 +24,7 @@ function ImagePopup (props) {
   const onCloseModal = () => setOpen(false);
 
   return (
-    <div>
+    <div className='nature-container'>
       <img 
         className='nature-photo'
         src={props.source}
@@ -35,7 +35,7 @@ function ImagePopup (props) {
       />
       
       <Modal open={open} onClose={onCloseModal} center>
-          <img src={props.source} alt='' width='550px'/>
+          <img src={props.source} alt='' width='100%'/>
       </Modal>
     </div>
   )

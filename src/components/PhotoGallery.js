@@ -4,19 +4,19 @@ import './PhotoGallery.css';
 
 import blackSwallowTail from '../gallery/blackSwallowtail.jpg';
 import dragonfly from '../gallery/dragonfly.jpg';
-import cloud from '../gallery/cloud.JPG';
+import cloud from '../gallery/cloud.jpg';
 import fallTrees from '../gallery/fallTrees.jpg';
 import lilacFlower from '../gallery/lilacFlower.jpg';
 import magentaFlower from '../gallery/magentaFlower.jpg';
-import monarch1 from '../gallery/monarch1.JPG';
-import monarch2 from '../gallery/monarch2.JPG';
+import monarch1 from '../gallery/monarch1.jpg';
+import monarch2 from '../gallery/monarch2.jpg';
 import orangeButterfly from '../gallery/orangeButterfly.jpg';
 import pinkFlower1 from '../gallery/pinkFlower1.jpg';
 import pinkFlower2 from '../gallery/pinkFlower2.jpg';
 import whiteFlower3 from '../gallery/whiteFlower3.jpg';
 import whiteFlowerBush from '../gallery/whiteFlowerBush.jpg';
 import whiteFlowerPink from '../gallery/whiteFlowerPink.jpg';
-import yellowFlower1 from '../gallery/yellowFlower1.JPG';
+import yellowFlower1 from '../gallery/yellowFlower1.jpg';
 import yellowFlower2 from '../gallery/yellowFlower2.jpg';
 
 class PhotoGallery extends Component {
