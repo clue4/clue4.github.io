@@ -18,7 +18,6 @@ import { Modal } from 'react-responsive-modal';
 // copies or substantial portions of the Software.
 
 function ImagePopup (props) {
-  
   const [open, setOpen] = useState(false);
   const onOpenModal = () => setOpen(true);
   const onCloseModal = () => setOpen(false);

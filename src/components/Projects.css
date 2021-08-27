@@ -7,6 +7,9 @@
 
 .projects-header {
   margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  line-height: 95%;
 }
 
 .projects-container {
@@ -122,10 +125,6 @@
 }
 
 @media (hover: hover) {
-  /* for mobile hover issues 
-  this might affect clicking tho?
-  ok this is not it -- links are somehow off
-  but i currently unsure how to fix*/
   .project-link:hover .info-container {
     opacity: 1;
   }

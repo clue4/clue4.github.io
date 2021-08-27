@@ -2,7 +2,6 @@ import React from 'react';
 import ProjectInfo from './ProjectInfo';
 import './Projects.css';
 
-
 function Projects() {
   return (
     <div className="projects">
