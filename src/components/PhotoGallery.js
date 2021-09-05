@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import ImagePopup from './ImagePopup.js';
 import './PhotoGallery.css';
 import blackSwallowTail from '../gallery/blackSwallowtail.jpg';
 import dragonfly from '../gallery/dragonfly.jpg';
@@ -18,26 +18,21 @@ import whiteFlowerPink from '../gallery/whiteFlowerPink.jpg';
 import yellowFlower1 from '../gallery/yellowFlower1.JPG';
 import yellowFlower2 from '../gallery/yellowFlower2.jpg';
 
-
 class PhotoGallery extends Component {
-
   constructor(props) {
     super(props);
 
     this.state = {
-      curPhoto: '',
       photos: [blackSwallowTail, dragonfly, orangeButterfly, whiteFlower3, cloud, fallTrees, 
               lilacFlower, magentaFlower, monarch1, monarch2, pinkFlower1, pinkFlower2,
               whiteFlowerBush, whiteFlowerPink, yellowFlower1, yellowFlower2],
-      showModal: false,
-      poppedPhoto: '',
     };
   }
 
   render() {
     const gallery = this.state.photos.map((img, index) => {
       return(
-        <img className='nature-photo' src={img} key={index} width='300px' alt='' />
+        <ImagePopup source={img} key={index}/>
       )
     });
 
@@ -45,14 +40,13 @@ class PhotoGallery extends Component {
       <div className='about-photos'>
         <div className='photos-container' >
           <h2>Here are some of my favorite photos (taken with my trusty phone)!</h2>
-          
           <div className='photo-gallery' >
             {gallery}
           </div>
-          <p className='photo-copyright'>All photos displayed below belong to me and
+          <p className='photo-copyright'>All photos displayed above belong to me and
           are ©Connie Liu.</p>
         </div>
-    </div>
+      </div>
     );
   }
 }

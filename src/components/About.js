@@ -9,12 +9,10 @@ function About() {
       <div className='profile-wrapper'>
         <img className='profile' src='images/profile.JPG' alt='Profile'/>
       </div>
-      
       <div className='about-content-container'>
         <div className='about-top'>
           <h1 className='hi' >Hi there!</h1>
         </div>
-
         <div className='about-bottom'>
           <div className='about-me'>
             <p className='about-words'>I’m Connie. I’m currently a sophomore studying Computer Science
@@ -24,7 +22,6 @@ function About() {
             <p className='about-words'>In my spare time, I enjoy reading, trying new foods, 
               and being in nature (and taking <Link to='/photography' className='about-link'>
               pictures of said nature - check it out!</Link>).</p>
-            
             <div className='contact'>
               <ul className='contact-list'>
                 <li className='about-link'>
@@ -41,7 +38,6 @@ function About() {
               </ul>
             </div>
           </div>
-
           <div className='fun-facts'>
             <h3>Quick facts:</h3>
             <ul>
@@ -53,7 +49,6 @@ function About() {
           </div>
         </div>
       </div>
-      
     </div>
   )
 }
