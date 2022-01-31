@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import { Link } from 'react-router-dom';
-import { FaFile, FaGithub, FaMailBulk } from "react-icons/fa";
+import { FaFile, FaGithub, FaMailBulk, FaLinkedin} from "react-icons/fa";
 
 function About() {
   return (
@@ -26,7 +26,7 @@ function About() {
               <ul className='contact-list'>
                 <li className='about-link'>
                   <FaFile /> 
-                  <a href="https://drive.google.com/file/d/1GDtvUIt3WQa67u-ClDSG1W60oGlwTwmM/view?usp=sharing"> Resume</a></li>
+                  <a href="https://drive.google.com/file/d/1h_we51pr55D5imvDv7QEcVtpyLWAyjRY/view?usp=sharing"> Resume</a></li>
                 <li className='about-link'>
                   <FaMailBulk />
                   <a href="mailto:liu.conn@northeastern.edu">  liu.conn@northeastern.edu</a>
@@ -34,6 +34,10 @@ function About() {
                 <li className='about-link'>
                   <FaGithub />
                   <a href="https://github.com/clue4">  github: @clue4</a>
+                </li>
+                <li className='about-link'>
+                  <FaLinkedin />
+                  <a href="https://www.linkedin.com/in/connie-liu-312094230/">   linkedin </a>
                 </li>
               </ul>
             </div>
